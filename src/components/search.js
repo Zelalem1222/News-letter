@@ -12,7 +12,7 @@ export const Search = ({country}) => {
  
     return (
         <>
-        <h3>Search top news by term</h3>
+        <h3>Search top news by the title</h3>
         <input type="text" placeholder="Search" onChange={e => {setSearchTerm(e.target.value)}}/>
         <div className="row row-cols-1 row-cols-md-3">
            
