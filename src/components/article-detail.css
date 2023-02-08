@@ -1,0 +1,13 @@
+.card-img {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.button {
+    display: flex;
+    width: 7%;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
