@@ -1,19 +1,8 @@
-import React,{createContext , useState} from "react";
-import { Link } from "react-router-dom";
-import { newsServiceGB , newsServiceUS } from "../services/news-service/news-service";
-import { TopNews } from "./top-news";
-// const countryContext = createContext(country);
+import React from "react";
 
-// export const countryContextProvider = ({children}) => {
-//    return (
-//       <countryContext.Provider value={country}>
-//           {children}
-//            </countryContext.Provider>
-//    )
-// }     
 
 export const Navbar = ({countryCode}) => {
-  // const [country, setCountry] = useState('');
+ 
   const handleCountry = (e) => {
     e.preventDefault();
     
@@ -26,7 +15,7 @@ export const Navbar = ({countryCode}) => {
     }
   }    
 
-  //  <TopNews country={country} />
+  
 
     return ( 
         <>

@@ -8,13 +8,13 @@ import './article-detail.css'
 export const ArticleDetail = () => {
      
     const { title } = useParams();
-    console.log(title);
+    
     
     const newsGB = useContext(NewsGbContext);
     const newsUS = useContext(NewsUsContext);
     const news = newsGB.concat(newsUS);
     const article = news.find((article) => article.title === title);
-    console.log(article);
+
     const { description , urlToImage} = article;
     return (
         <>
