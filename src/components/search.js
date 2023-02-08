@@ -4,7 +4,7 @@ import { NewsUsContext } from "../services/news-service/news-context-us";
 import './search.css'
 
 
-export const Search = ({country}) => {
+export const Search = () => {
     const newsGB = useContext(NewsGbContext);
     const newsUS = useContext(NewsUsContext);
     const [searchTerm , setSearchTerm] = useState("");
