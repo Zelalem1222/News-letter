@@ -1,5 +1,5 @@
 import React,{ useState , createContext , useEffect }  from "react";
-import { newsServiceGB } from "./news-service";
+import { newsServiceGB } from "../services/news-service/news-service";
 
 export const NewsGbContext = createContext();
 

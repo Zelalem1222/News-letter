@@ -1,6 +1,6 @@
 import React , {useContext , useState} from "react";
-import { NewsGbContext } from "../services/news-service/news-context-gb";
-import { NewsUsContext } from "../services/news-service/news-context-us";
+import { NewsGbContext } from "../context/news-context-gb";
+import { NewsUsContext } from "../context/news-context-us";
 import './search.css'
 
 

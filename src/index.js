@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { NewsGbProvider } from './services/news-service/news-context-gb';
-import { NewsUsProvider } from './services/news-service/news-context-us';
+import { NewsGbProvider } from './context/news-context-gb';
+import { NewsUsProvider } from './context/news-context-us';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
